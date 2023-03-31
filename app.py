@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from prediction import show_predict_page
 from explore import show_explore_page
-from PIL import Image
+#from pillow import Image
 
 st.set_page_config(
     page_title="Predict Heart Disease",
